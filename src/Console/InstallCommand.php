@@ -38,7 +38,7 @@ class InstallCommand extends Command implements PromptsForMissingInput
                                               {--pest : Indicates if Pest should be installed}
                                               {--ssr : Indicates if Inertia SSR support should be installed}
                                               {--typescript : Indicates if Inertia TypeScript support should be installed}
-                                              {--typescript : Indicates if ESLint for Inertia stacks support should be installed (only supported for TS integration)}
+                                              {--eslint : Indicates if ESLint for Inertia stacks support should be installed (only supported for TS integration)}
                                               {--composer=global : Absolute path to the Composer binary which should be used to install packages}';
 
     /**
