@@ -281,6 +281,8 @@ class InstallCommand extends Command implements PromptsForMissingInput
             $this->runCommands(['pnpm install', 'pnpm run build']);
         } elseif (file_exists(base_path('yarn.lock'))) {
             $this->runCommands(['yarn install', 'yarn run build']);
+        } elseif (file_exists(base_path('bun.lockb'))) {
+            $this->runCommands(['bun install', 'bun run build']);
         } else {
             $this->runCommands(['npm install', 'npm run build']);
         }
@@ -574,6 +576,8 @@ EOF;
             $this->runCommands(['pnpm install', 'pnpm run build']);
         } elseif (file_exists(base_path('yarn.lock'))) {
             $this->runCommands(['yarn install', 'yarn run build']);
+        } elseif (file_exists(base_path('bun.lockb'))) {
+            $this->runCommands(['bun install', 'bun run build']);
         } else {
             $this->runCommands(['npm install', 'npm run build']);
         }
@@ -918,6 +922,10 @@ EOF;
      */
     protected function phpBinary()
     {
+        if (function_exists('Illuminate\Support\php_binary')) {
+            return \Illuminate\Support\php_binary();
+        }
+
         return (new PhpExecutableFinder())->find(false) ?: 'php';
     }
 

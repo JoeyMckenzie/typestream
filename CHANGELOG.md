@@ -1,6 +1,26 @@
 # Release Notes
 
-## [Unreleased](https://github.com/laravel/jetstream/compare/v5.2.0...5.x)
+## [Unreleased](https://github.com/laravel/jetstream/compare/v5.3.2...5.x)
+
+## [v5.3.2](https://github.com/laravel/jetstream/compare/v5.3.1...v5.3.2) - 2024-11-11
+
+* Fix Text Alignment on Team Member Role Modal Descriptions by [@andyunleashed](https://github.com/andyunleashed) in https://github.com/laravel/jetstream/pull/1546
+* [5.x] Convert array to single line format by [@reyberyturiaga](https://github.com/reyberyturiaga) in https://github.com/laravel/jetstream/pull/1547
+
+## [v5.3.1](https://github.com/laravel/jetstream/compare/v5.3.0...v5.3.1) - 2024-10-30
+
+* [5.x] Add bun support by [@pushpak1300](https://github.com/pushpak1300) in https://github.com/laravel/jetstream/pull/1544
+* [5.x] Add bun support for inertia by [@pushpak1300](https://github.com/pushpak1300) in https://github.com/laravel/jetstream/pull/1545
+
+## [v5.3.0](https://github.com/laravel/jetstream/compare/v5.2.1...v5.3.0) - 2024-10-12
+
+* Have as=a for ResponsiveNavLink Component in Inertia by [@alnutile](https://github.com/alnutile) in https://github.com/laravel/jetstream/pull/1543
+
+## [v5.2.1](https://github.com/laravel/jetstream/compare/v5.2.0...v5.2.1) - 2024-10-02
+
+* Update logo to support dark/light theme by [@milewski](https://github.com/milewski) in https://github.com/laravel/jetstream/pull/1538
+* [5.x] Utilise `Illuminate\Support\php_binary()` by [@crynobone](https://github.com/crynobone) in https://github.com/laravel/jetstream/pull/1541
+* Chore: factory doc block in models by [@MrPunyapal](https://github.com/MrPunyapal) in https://github.com/laravel/jetstream/pull/1542
 
 ## [v5.2.0](https://github.com/laravel/jetstream/compare/v5.1.5...v5.2.0) - 2024-09-09
 
